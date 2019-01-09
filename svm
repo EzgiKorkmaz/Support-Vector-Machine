@@ -1,3 +1,4 @@
+# SVM for educational purposes
 
 
 import numpy as np
@@ -44,3 +45,42 @@ def polynomial_kernel(x, y, p=7):
 
 def gaussian_kernel(x, y, sigma=0.9):
     return np.exp(-np.linalg.norm(x-y)**2 / (2 * (sigma ** 2)))
+    
+    
+#######################################################################################
+
+
+P = np.zeros((N,N))
+
+for i in range(N):
+    for j in range(N):
+        P[i,j] = targets[i] * targets [j] * polynomial_kernel(x[i], x[j])
+        
+ #####################################################################################
+ 
+ def zerofun(alpha):
+    return(np.dot(alpha, targets))
+    
+ 
+
+start = np.zeros(N)
+B=[(0, None) for b in range(N)]
+cons = {'type':'eq', 'fun':zerofun}
+
+#######################################################################################
+
+def objective(alpha):
+    result = 0
+    sum_alpha = np.sum(alpha)
+    
+    for i in range(N):
+        for m in range(N):
+            result += alpha[i] * alpha[m] * P[i,m]
+    result = 0.5 * result - sum_alpha
+    return(result)
+#######################################################################################
+### Let us find our non zero vectors which they will be the support vectors ###
+
+ret = minimize(objective, start, bounds = B, constraints = cons)
+alphas = ret['x']
+alphas
