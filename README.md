@@ -10,4 +10,4 @@ You can pick the kernel you wuld like to work on. One of the example below is on
 </p>
 
 
-<img align="left" width="100" height="100" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png"> <img align="right" width="100" height="100" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png">
+<img align="left" width="300" height="200" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png"> <img align="right" width="300" height="200" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png">
