@@ -11,7 +11,7 @@ You can pick the kernel you wuld like to work on. The examples below represents 
 
 
 
-\By changing the Kernel parameters you can observe the changes in decision boundaries. You can observe the overfitting problem and the effects of the Kernel parameters to overfitting.\
+<br/>By changing the Kernel parameters you can observe the changes in decision boundaries. You can observe the overfitting problem and the effects of the Kernel parameters to overfitting.<br/>
 
 
 
