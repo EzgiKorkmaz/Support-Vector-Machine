@@ -7,7 +7,7 @@ You can pick the kernel you wuld like to work on. The examples below represents 
 
 
 
-<img align="left" width="400" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png"> <img align="right" width="400" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/poly.png?raw=true"> </p>
+<img align="left" width="460" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png"> <img align="right" width="460" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/poly.png?raw=true"> </p>
 
 
 
