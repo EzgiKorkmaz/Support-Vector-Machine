@@ -9,7 +9,11 @@ You can pick the kernel you wuld like to work on. The examples below represents 
 
 <img align="left" width="400" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png"> <img align="right" width="400" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/poly.png?raw=true">
 
+
+
 By changing the Kernel parameters you can observe the changes in decision boundaries. You can observe the overfitting problem and the effects of the Kernel parameters to overfitting.
+
+
 
 
 <img align="left" width="400" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/C_7.png"> <img align="right" width="400" height="300" src="https://github.com/EzgiKorkmaz/Support-Vector-Machine/blob/master/poly.png?raw=true">
